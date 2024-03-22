@@ -1,0 +1,81 @@
+/*style.css*/
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: white;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main {
+    width:450px;
+    height:400px;
+    border-radius:500px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.whiteCenter{
+    width:350px;
+    height:400px;
+    border-radius:250px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+img{
+    align-items: center;
+    width: 100px;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+
+input {
+    display: block;
+    width: 75%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+
